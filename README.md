@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Dart when iterating over a list.  The error occurs because the loop condition `i <= numbers.length` attempts to access an index that is beyond the valid range of the list (0 to length-1). The solution corrects this by changing the loop condition to `i < numbers.length`.
